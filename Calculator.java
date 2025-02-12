@@ -26,7 +26,12 @@ public class Calculator {
             System.out.println("Product of the two numbers: "+(one*two));
         }
         else if(answer == 4){
-            System.out.println("Quotient of the two numbers: "+(one/two));
+            if(two == 0){
+                System.out.println("Error: Divide by Zero");
+            }
+            else{
+                System.out.println("Quotient of the two numbers: "+(one/two));
+            }
         }
         else{
             System.out.println("Invalid answer.");
