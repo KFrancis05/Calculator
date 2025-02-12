@@ -4,13 +4,13 @@ public class Calculator {
     public static void main (String[] args){
         Scanner r = new Scanner(System.in);
 
-        System.out.println("Please enter an int");
-        int one = r.nextInt();
+        System.out.println("Please enter a number");
+        float one = r.nextFloat();
 
         r.nextLine();
 
-        System.out.println("Please enter another int");
-        int two = r.nextInt();
+        System.out.println("Please enter another number");
+        float two = r.nextFloat();
 
         r.nextLine();
 
